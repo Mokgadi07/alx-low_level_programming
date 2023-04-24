@@ -1,6 +1,13 @@
-#include <stdio.h> // include standard input/output library
+#include <stdio.h>
 
-int main() { // define main function
-    puts("Programming is like building a multilingual puzzle"); // use puts function to print the given string
-    return 0; // return 0 to indicate successful program termination
+/*
+ * This program prints the message "Programming is like building a multilingual puzzle"
+ * using the `puts()` function.
+ */
+int main(void)
+{
+    /* Call the `puts()` function to print the message to the console */
+    puts("Programming is like building a multilingual puzzle");
+
+    return (0);
 }
